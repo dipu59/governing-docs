@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { Icon } from "../Common/icon";
 import { NavItem } from "../../lib/database";
-import { Button } from "../Common/Button";
 import { Menu, X } from "lucide-react";
 // eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from "framer-motion";
+import { Button } from "../Common/button";
 
 export default function Navber() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
