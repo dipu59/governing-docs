@@ -1,15 +1,15 @@
-import Buttton from "./component/Common/Buttton"
+import Footer from "./components/shared/footer";
+import Navber from "./components/shared/navber";
 
 function App() {
   return (
-    <main className="max-w-[1440px] min-w-[375px]  mx-auto">
+    <main className="max-w-[1440px] min-w-[375px] px-4  mx-auto h-screen">
       <div className="">
-        <Buttton>
-        Get Started Today
-    </Buttton>
+        <Navber />
+        <Footer/>
       </div>
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
