@@ -23,13 +23,12 @@ const ProblemSolution = () => {
           />
         </div>
       </div>
-      {/* box-shadow: 0px 10px 30px 0px #02B6DC26;
-       */}
+   
       <ul className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-[31px] transition-all pt-10">
         {ProblemInfo.map((items, index) => (
           <li
             key={index}
-            className="problemShadow rounded-xl p-[20px] hover:text-white transition-all group  duration-300 hover:bg-gradient-primary text-grya  cursor-pointer"
+            className="problemShadow rounded-3xl p-[20px] hover:text-white transition-all group  duration-300 hover:bg-gradient-primary text-grya  cursor-pointer"
           >
             <img src={items.icon} alt="Problem and solution" />
             <p className="md:text-lg text-base font-bold font-heading md:py-5 py-4  group-hover:text-white duration-300 text-secondery">

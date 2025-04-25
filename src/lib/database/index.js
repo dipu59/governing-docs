@@ -50,3 +50,15 @@ export const ProblemInfo = [
     disc2: '',
   },
 ];
+
+
+//Our Partners Data here 👇
+
+export const PartnersInfo = [
+  { logo: '/logo1.png', alt:'Logo 1'},
+  { logo: '/logo2.png', alt:'Logo 2'},
+  { logo: '/logo3.png', alt:'Logo 3'},
+  { logo: '/logo4.png', alt:'Logo 4'},
+  { logo: '/logo5.png', alt:'Logo 5'},
+  { logo: '/logo6.png', alt:'Logo 6'},
+]
