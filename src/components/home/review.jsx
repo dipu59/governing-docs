@@ -2,7 +2,7 @@ import React from "react";
 import { GradientTitle } from "../Common/gradient-title";
 import { Star } from "lucide-react";
 import { ClientInfos } from "../../lib/database";
-import { ClientInfo } from "./ClientInfo";
+import { ClientInfo } from "./ClientInfo.jsx";
 
 export default function Reviews() {
   return (
