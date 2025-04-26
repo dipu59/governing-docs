@@ -15,7 +15,7 @@ export default function Partners() {
               key={index}
               className="bg-white hover:shadow-lg duration-300 transition-all cursor-pointer h-[101px] rounded-[12px] border border-[#D6D6D6] py-[30px] px-[43px]"
             >
-              <img src={img.logo} alt={img.alt} className="" />
+              <img src={img.logo} alt={img.alt} className="hover:scale-105 duration-300 transition-all " />
             </li>
           ))}
         </ul>

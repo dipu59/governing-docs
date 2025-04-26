@@ -62,3 +62,43 @@ export const PartnersInfo = [
   { logo: '/logo5.png', alt:'Logo 5'},
   { logo: '/logo6.png', alt:'Logo 6'},
 ]
+
+// Our Clients All data
+
+export const ClientInfos = [
+  {
+    url: "/davit.png",
+    alt: 'David Photo',
+    name: 'David',
+    reaction: 'Happy Client',
+    Review: {
+      title: 'It Was A Amazing Experiance!',
+      stars: '4',
+      disc: 'The AI features saved us countless hours and ensured our compliance was spot on.',
+    },
+  },
+
+  {
+    url: "/John.png",
+    alt: 'John Smith',
+    name: 'John Smith',
+    reaction: 'Happy Client',
+    Review: {
+      title: 'It Was A Amazing Experiance!',
+      stars: '5',
+      disc:  'saved us countless hours and ensured our compliance was spot onThe AI features saved us ured our compliance was spot on..',
+    },
+  },
+
+  {
+    url: "/Ronald.png",
+    alt: 'Ronald Richards',
+    name: 'Ronald Richards',
+    reaction: 'Happy Client',
+    Review: {
+      title: 'It Was A Amazing Experiance!',
+      stars: '5',
+      disc: 'countless hours and ensured our compliance was spot on.The AI features saved us countless hours and ensured our.',
+    },
+  },
+]
