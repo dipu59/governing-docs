@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import { GradientTitle } from "../Common/gradient-title";
 import { Star } from "lucide-react";
 import { ClientInfos } from "../../lib/database";
-import { ClientInfo } from "./ClientInfo.jsx";
+import { ClientInfo } from "./client-info.jsx";
 import { cn } from "../../lib/utils/index.js";
 
 export default function Reviews() {
-  const [active, setActive] = useState(0);
+  const [active, setActive] = useState(1);
 
   const activeReview = ClientInfos[active];
 
