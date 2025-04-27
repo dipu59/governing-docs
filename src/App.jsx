@@ -1,3 +1,4 @@
+import { FAQSection } from "./components/home/faq";
 import Hero from "./components/home/hero";
 import Partners from "./components/home/partners";
 import ProblemSolution from "./components/home/problem-solution";
@@ -18,7 +19,7 @@ function App() {
         <Reviews />
         <div className="px-4 md:px-0">
           <Partners />
-          {/* <Faq/> */}
+          <FAQSection/>
           <Simplify />
         </div>
         <Footer />
