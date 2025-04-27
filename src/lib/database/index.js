@@ -73,7 +73,7 @@ export const ClientInfos = [
     reaction: 'Happy Client',
     Review: {
       title: 'It Was A Amazing Experiance!',
-      stars: '4',
+      stars: 3,
       disc: 'The AI features saved us countless hours and ensured our compliance was spot on.',
     },
   },
@@ -85,7 +85,7 @@ export const ClientInfos = [
     reaction: 'Happy Client',
     Review: {
       title: 'It Was A Amazing Experiance!',
-      stars: '5',
+      stars: 5,
       disc:  'saved us countless hours and ensured our compliance was spot onThe AI features saved us ured our compliance was spot on..',
     },
   },
@@ -97,7 +97,7 @@ export const ClientInfos = [
     reaction: 'Happy Client',
     Review: {
       title: 'It Was A Amazing Experiance!',
-      stars: '5',
+      stars: 2,
       disc: 'countless hours and ensured our compliance was spot on.The AI features saved us countless hours and ensured our.',
     },
   },

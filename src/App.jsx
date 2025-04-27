@@ -9,17 +9,19 @@ import Navber from "./components/shared/navber";
 function App() {
   return (
     <>
-      <main className="max-w-[1440px] min-w-[375px] md:px-0 px-4 bg-[url(/hero-bg.svg)] bg-no-repeat object-cover bg-left-top  mx-auto  font-default">
-        <div className="">
+      <main className="max-w-[1440px] min-w-[375px]   bg-[url(/hero-bg.svg)] bg-no-repeat object-cover bg-left-top  mx-auto  font-default">
+        <div className="px-4 md:px-0">
           <Navber />
           <Hero />
           <ProblemSolution />
-          <Reviews />
+        </div>
+        <Reviews />
+        <div className="px-4 md:px-0">
           <Partners />
           {/* <Faq/> */}
           <Simplify />
-          <Footer />
         </div>
+        <Footer />
       </main>
     </>
   );

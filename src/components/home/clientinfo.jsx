@@ -1,16 +1,17 @@
 import React from 'react'
+import { cn } from '../../lib/utils'
 
-export  const ClientInfo = ({url, name, reaction}) => {
+export  const ClientInfo = ({url, name, reaction, active, onClick}) => {
   return (
-    <div className="gradient_border flex-grow w-full  bg-white rounded-[20px] h-[91px] ">
-    <div className="flex gap-[13px] justify-start items-center">
+    
+    <button onClick={onClick} className={cn("border-primary border rounded-[20px] inline-flex w-full  gap-[13px] justify-start items-center h-[92px]", active && 'bg-gradient-primary text-white')}>
       <img src={url} alt="" />
-      <div className="text-grya font-semibold">
+      <div className={cn("text-grya font-semibold", active && 'text-white')}>
         <h4>{name}</h4>
         <h4>{reaction}</h4>
       </div>
-    </div>
-  </div>
+    </button>
+  
   )
 }
 
