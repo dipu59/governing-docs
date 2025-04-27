@@ -28,7 +28,8 @@ export const FAQSection = () => {
   };
 
   return (
-      <div className="max-w-[982px] mx-auto mt-10 mb-[90px] md:mb-[150px]">
+    <main className=" relative">
+      <div className=" relative z-10 max-w-[982px] mx-auto mt-10 mb-[90px] md:mb-[150px]">
           <GradientTitle gradient='Asked Questions' className='text-center mb-[30px] md:mb-[40px]'>Frequently </GradientTitle>
       {faqData.map((item, index) => (
         <div
@@ -52,6 +53,8 @@ export const FAQSection = () => {
           )}
         </div>
       ))}
-    </div>
+      </div>
+      <img src="/faq.png" alt="" className=" absolute top-0 w-[1713px] max-h-[590px] md:-top-32 -left-20 z-0 " />
+    </main>
   );
 };
