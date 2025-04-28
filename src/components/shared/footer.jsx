@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <nav className=" bg-[#00D2FF0D] pt-[94px]">
       <div className="max-w-[1182px] min-w-[360px] mx-auto px-1">
-        <div className="flex justify-between items-center gap-[45px] ">
+        <div className="flex justify-between items-center md:gap-[45px] px-4">
           <div>
             <Icon>Ai GoverningDocs</Icon>
           </div>
